@@ -1,0 +1,15 @@
+const num2let = require('num2let');
+
+console.log(num2let(0));          // Expected Output: "zero"
+console.log(num2let(1));          // Expected Output: "one"
+console.log(num2let(15));         // Expected Output: "fifteen"
+console.log(num2let(123));        // Expected Output: "one hundred twenty three"
+console.log(num2let(1000));       // Expected Output: "one thousand"
+console.log(num2let(1001));       // Expected Output: "one thousand one"
+console.log(num2let(1010));       // Expected Output: "one thousand ten"
+console.log(num2let(12345));      // Expected Output: "twelve thousand three hundred forty five"
+console.log(num2let(1234567));    // Expected Output: "one million two hundred thirty four thousand five hundred sixty seven"
+console.log(num2let(-5));         // Expected Output: "Number out of range"
+console.log(num2let("2 + 2"));    // Expected Output: "four"
+console.log(num2let("invalid"));  // Expected Output: "Invalid mathematical expression"
+console.log(num2let("cos(90)"));  // Expected Output: "zero"

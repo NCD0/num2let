@@ -1,0 +1,27 @@
+{
+    "name": "num2let",
+    "version": "1.0.0",
+    "description": "A JavaScript library for converting numbers to words (Supports math conversion)",
+    "main": "index.js",
+    "scripts": {
+        "test": "node test.js"
+    },
+    "keywords": [
+        "number",
+        "words",
+        "conversion",
+        "math"
+    ],
+    "author": "NCD0",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ncd0/num2let.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ncd0/num2let/issues"
+    },
+    "dependencies": {
+        "num2let": "^1.0.0"
+    }
+}
